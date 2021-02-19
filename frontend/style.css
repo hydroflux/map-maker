@@ -1,0 +1,103 @@
+.top-nav {
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  border: solid black 2px;
+}
+
+h3 {
+  padding-left: 30px;
+  padding-top: 10px;
+  color: white;
+}
+
+main {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+#drawing-board {
+  position: absolute;
+  margin: auto;
+  width: 80%;
+}
+#drawing-board #easel {
+  position: relative;
+  margin: auto 1rem;
+}
+#drawing-board #easel-options {
+  position: relative;
+  margin: auto 1rem;
+  background: none;
+}
+#drawing-board #easel-options #easel-options-nav {
+  display: flex;
+  justify-content: flex-start;
+  height: 3rem;
+}
+#drawing-board #easel-options #easel-options-nav .options-tab {
+  padding: 1rem 2.5rem;
+  color: gray;
+}
+#drawing-board #easel-options #easel-options-nav .options-tab:hover {
+  background-color: lightblue;
+}
+#drawing-board #easel-options #easel-content {
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+#drawing-board #easel-options #easel-content .templates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  margin: 1rem;
+  height: 10rem;
+  width: 10rem;
+}
+#drawing-board #easel-options #easel-content .templates:hover {
+  opacity: 50%;
+}
+#drawing-board #easel-options #easel-content .color {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  margin: 1rem;
+  height: 2rem;
+  width: 2rem;
+}
+#drawing-board #easel-options #easel-content .size-button {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  margin: 1rem;
+  height: 2rem;
+  width: 2rem;
+}
+#drawing-board #easel-options #easel-content .image-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 1rem;
+  height: 3rem;
+  width: 6rem;
+  padding-left: 10px;
+}
+#drawing-board #easel-options #easel-content .image-button img {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
